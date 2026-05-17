@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Reservas</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Reservas</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="reservas.html">Reservas</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+  <main>
+    <form id="form-reserva">
+      <label>Check-in: <input type="date" id="checkin"></label><br>
+      <label>Check-out: <input type="date" id="checkout"></label><br>
+      <label>Personas: <input type="number" id="personas" min="1"></label><br>
+      <button type="submit">Consultar disponibilidad</button>
+    </form>
+    <div id="resultado"></div>
+  </main>
+</body>
+</html>
