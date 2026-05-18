@@ -2,12 +2,16 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hotel el Rincón del Carmen</title>
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/menu.js" defer></script>
+  <script src="js/carousel.js" defer></script>
 </head>
 <body>
   <header>
     <h1>Hotel el Rincón del Carmen</h1>
+    <button class="menu-toggle">☰</button>
     <nav>
       <a href="index.html">Inicio</a>
       <a href="reservas.html">Reservas</a>
@@ -15,25 +19,67 @@
     </nav>
   </header>
 
-  <!-- Hero principal -->
+  <!-- Hero con carrusel -->
   <section class="hero">
-    <h2>Bienvenido al Hotel el Rincón del Carmen</h2>
+    <div class="carousel">
+      <div class="slide active">
+        <img src="imagenes/habitacion1-bañera.png" alt="Suite con bañera y vista al atardecer">
+        <div class="overlay">
+          <h2>Suite con bañera y vista al atardecer</h2>
+          <p>Relájate con una vista única al atardecer desde tu bañera privada.</p>
+          <button>Reservar ahora</button>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="imagenes/habitacion2-minibar.png" alt="Habitación moderna con minibar y vista al mar">
+        <div class="overlay">
+          <h2>Habitación moderna con minibar y vista al mar</h2>
+          <p>Disfruta de un minibar completo y vistas al océano desde tu balcón.</p>
+          <button>Reservar ahora</button>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="imagenes/habitacion3-doble.png" alt="Habitación doble con vista panorámica">
+        <div class="overlay">
+          <h2>Habitación doble con vista panorámica</h2>
+          <p>Perfecta para compartir, con dos camas y una vista espectacular.</p>
+          <button>Reservar ahora</button>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="imagenes/habitacion4-bar.png" alt="Habitación con barcito y espejo decorativo">
+        <div class="overlay">
+          <h2>Habitación con barcito y espejo decorativo</h2>
+          <p>Ambiente acogedor con bar privado y detalles elegantes.</p>
+          <button>Reservar ahora</button>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="imagenes/habitacion5-dosel.png" alt="Habitación con cama con dosel y terraza frente al océano">
+        <div class="overlay">
+          <h2>Habitación con cama con dosel y terraza frente al océano</h2>
+          <p>Descansa bajo el dosel y disfruta del sonido del mar desde tu terraza.</p>
+          <button>Reservar ahora</button>
+        </div>
+      </div>
+    </div>
   </section>
 
   <main>
-    <!-- Sección de servicios -->
     <section class="servicios">
       <h2>Nuestros Servicios</h2>
       <ul>
         <li>Spa</li>
         <li>Restaurante</li>
         <li>Zonas húmedas</li>
+        <li>Eventos y celebraciones</li>
+        <li>Transporte al aeropuerto</li>
       </ul>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2026 Hotel el Rincón del Carmen</p>
+    <p>&copy; 2026 Hotel el Rincón del Carmen - Girón, Santander</p>
   </footer>
 </body>
 </html>
